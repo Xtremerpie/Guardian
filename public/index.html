@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1220"><title>Xtremerpie Guardian V2</title><link rel="stylesheet" href="/style.css"></head><body><main class="wrap">
+<header><div class="logo">✦</div><div><h1>Xtremerpie Guardian</h1><p>Personal safety · Device check-in console</p></div><span class="version">V2 FINAL</span></header>
+<section class="panel" id="login"><h2>Secure dashboard</h2><p>Enter the ADMIN_KEY configured in Vercel.</p><input id="adminKey" type="password" placeholder="Admin secret"><button id="connect">Connect dashboard</button><small id="loginError"></small></section>
+<div id="dashboard" hidden>
+<section class="panel hero"><div><label>REMOTE MONITORING</label><h2 id="active">Inactive</h2><p id="summary">Monitoring is off.</p></div><div class="buttons"><button id="on">Activate</button><button id="off" class="secondary">Deactivate</button></div></section>
+<div class="grid">
+<section class="panel"><label>PHONE CONNECTION</label><h2 id="connection">Unknown</h2><p id="lastSeen">No check-in yet</p></section>
+<section class="panel"><label>BATTERY</label><h2 id="battery">—</h2><p>Last reported by Android</p></section>
+<section class="panel"><label>LOCATION</label><h2 id="location">Not shared</h2><p id="locationAt">Location sharing is optional</p><a id="map" target="_blank" rel="noopener" hidden>Open map ↗</a></section>
+</div>
+<section class="panel"><div class="sectionhead"><h2>Alerts & activity</h2><span id="updated">Updating…</span></div><div id="alert" class="alert" hidden></div><div id="events" class="events">Loading events…</div></section>
+</div><footer>Use only with the device owner's informed permission. A missed check-in can indicate app suspension, loss of internet, battery loss or shutdown; it cannot identify the cause.</footer></main><script src="/dashboard.js"></script></body></html>

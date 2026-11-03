@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+.env
+.env.local
+*.jks
+local.properties
+android/.gradle/
+android/build/
+android/app/build/

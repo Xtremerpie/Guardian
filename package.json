@@ -1,0 +1,8 @@
+{
+  "name": "xtremerpie-guardian-v2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Consent-based Android check-in service and Vercel dashboard",
+  "engines": {"node": ">=20"},
+  "scripts": {"dev": "vercel dev"}
+}
