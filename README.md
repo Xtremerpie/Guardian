@@ -75,3 +75,7 @@ Run twice and use different outputs. Keep them private.
 - No heartbeat: verify phone internet, app notification, permissions, battery settings and that service is running.
 - No location: enable sharing in app, grant precise/approximate location, enable device location services; location may be stale or unavailable indoors.
 - Vercel logs: Project → Deployments → Functions / Runtime Logs.
+
+# INFO
+- Made by Xtrmeprie
+- goal-to make sure safty of our family
